@@ -1,0 +1,103 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: peachpuff;
+
+
+}
+
+.wrapper{
+    width: 700px;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.wrapper header{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+}
+
+.content .quote-area{
+    display:flex;
+    justify-content: center;
+}
+
+.quote-area .quote{
+    font-size:22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author{
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+
+}
+
+.wrapper .buttons{
+    border-top: 1px solid #ccc ;
+
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 50px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: peachpuff;
+    border-radius: 20px;
+    border: 3px solid peachpuff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    color:white; 
+    background: peachpuff;
+}
+
+.features button{
+ border:solid;
+ border-width: 2px; 
+ outline:none; 
+ color: black;
+ cursor: pointer;
+ font-style: 16px;
+ padding: 14px 22px;
+ border-radius: 30px;
+ background: peachpuff;
+ font-family: monospace;
+
+
+}
+
